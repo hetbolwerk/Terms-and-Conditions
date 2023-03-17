@@ -1,6 +1,5 @@
 body {
-    font-family: 'lato2oflweb', 'Lato', Helvetica,Arial,sans-serif;
-    padding-top: 80px;
+    font-family: 'lato2oflweb', 'Lato', Helvetica, Arial, sans-serif;
     text-align: center;
 }
 
@@ -13,29 +12,31 @@ header {
     background-color: #fff;
     z-index: 100;
     border-bottom: 1px solid #ccc;
-  }
-  header.sticky {
+}
+
+header.sticky {
     position: fixed;
     top: 0;
-  }
+}
 
-  .logo-container {
+.logo-container {
     float: left;
     height: 80px;
     padding-left: 20px;
-  }
+}
 
-  .logo-container img {
+.logo-container img {
     height: 100%;
-  }
+}
 
-  .button-container {
+.button-container {
     float: right;
     height: 80px;
     padding-right: 20px;
-  }
+    margin: 0 25px;
+}
 
-  .back-button {
+.back-button {
     margin: 22px 0;
     display: inline-block;
     height: 35px;
@@ -51,18 +52,18 @@ header {
     border-radius: 1px;
     transition: all 0.3s ease;
     text-decoration: none;
-  }
+}
 
-  .back-button:hover, .back-button:active {
+.back-button:hover,
+.back-button:active {
     background-color: #fff;
     color: #49773b;
     border: 1px solid #49773b;
     text-decoration: none;
     cursor: pointer;
+}
 
-  }
-
-  .menu-button {
+.menu-button {
     margin: 22px 0;
     display: inline-block;
     height: 35px;
@@ -77,51 +78,73 @@ header {
     border-radius: 1px;
     transition: all 0.3s ease;
     text-decoration: none;
-  }
-  .menu-button:hover, .menu-button:visited  {
+}
+
+.menu-button:hover,
+.menu-button:visited {
     color: #49773b;
     text-decoration: none;
-  }
+}
 
-  section {
-        display: inline-block;
-        margin: 20px 0;
-        border: 1px solid #49773b;
-        padding: 10px;
-        text-align: left;
-        vertical-align: top;
-        width: 50%;
-        min-width: 400px;
-    }
+.language_button {
+    margin: 22px 0;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 5px;
+    color: #49773b;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
 
-    h1 {
-        font-size: 20px;
-        font-weight: bold;
-        color: #49773b;
-        text-transform: uppercase;
-        margin: 0;
-        margin-bottom: 15px;
-    }
+.language_button.active {
+    border:1px solid #49773b;
+    font-weight: bold;
+}
 
-    h2 {
-        font-size: 16px;
-        font-weight: bold;
-        text-transform: uppercase;
-        margin: 0;
-    }
+section {
+    margin-top: 80px;
+    display: inline-block;
+    border: 1px solid #49773b;
+    padding: 0px;
+    text-align: left;
+    vertical-align: top;
+    height: 80vh;
+    width: 50%;
+    min-width: 400px;
+}
 
-    .section a, .section a:visited, .section a:hover {
-        color: #49773b;
-    }
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #49773b;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 50px;
+}
 
-    .langtag {
-        display: inline-block;
-        margin: 20px 0px;
-        padding: 5px;
-        border-radius: 3px 0 0 3px;
-        font-weight: bold;
-        vertical-align: top;
-        border: 1px solid #49773b;
-        background-color: #49773b;
-        color: #fff;
-    }
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+section.changelog {
+    padding: 10px;
+}
+
+section.changelog h1 {
+    margin-bottom: 10px;
+}
+
+.timestamp {
+    font-weight: bold;
+    display: inline-block;
+    background-color: #49773b;
+    color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
