@@ -62,7 +62,28 @@ header {
 
   }
 
-    .section {
+  .menu-button {
+    margin: 22px 0;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 20px;
+    color: #49773b;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 1px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  .menu-button:hover, .menu-button:visited  {
+    color: #49773b;
+    text-decoration: none;
+  }
+
+  section {
         display: inline-block;
         margin: 20px 0;
         border: 1px solid #49773b;
