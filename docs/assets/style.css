@@ -199,6 +199,9 @@ section.changelog h1 {
         padding: 0;
         margin: 0;
     }
+    body.contents {
+        text-align: justify;
+    }
 
     section {
       width: 100%;
