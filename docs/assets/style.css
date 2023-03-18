@@ -1,6 +1,15 @@
 body {
     font-family: 'lato2oflweb', 'Lato', Helvetica, Arial, sans-serif;
     text-align: center;
+    padding: 40px;
+    background: url(background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.contents {
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
 }
 
 header {
@@ -86,6 +95,25 @@ header.sticky {
     text-decoration: none;
 }
 
+.backlink {
+    display: inline-block;
+    margin: 10px 0;
+    border: 1px solid #49773b;
+    background-color: #49773b;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.backlink:hover {
+    background-color: transparent;
+    color: #49773b;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.backlink > i {
+    margin-right: 5px;
+}
+
 .language_button {
     margin: 22px 0;
     display: inline-block;
@@ -110,7 +138,8 @@ section {
     text-align: left;
     vertical-align: top;
     height: 80vh;
-    width: 50%;
+    width: 80%;
+    max-width: 1000px;
     min-width: 400px;
 }
 
@@ -130,8 +159,14 @@ h2 {
     margin: 0;
 }
 
+li {
+    padding: 4px;
+    list-style-type: circle;
+}
+
 section.changelog {
-    padding: 10px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 section.changelog h1 {
