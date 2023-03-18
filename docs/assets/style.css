@@ -194,6 +194,7 @@ section.changelog h1 {
     }
 
     body.main {
+        background: none;
         height: 100%;
         width: 100%;
         display: flex;
@@ -206,12 +207,11 @@ section.changelog h1 {
         padding: 20px;
     }
 
-    body.contexts p {
+    body.contents p {
         text-align: justify;
     }
 
     section {
-        margin: 5px;
         width: 100%;
         flex: 1;
         border: none;
