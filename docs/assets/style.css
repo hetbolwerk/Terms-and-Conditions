@@ -203,8 +203,11 @@ section.changelog h1 {
     }
 
     body.contents {
-        text-align: justify;
         padding: 20px;
+    }
+
+    body.contexts p {
+        text-align: justify;
     }
 
     section {
